@@ -115,8 +115,7 @@ const degrees = {
       alt_name: "Masai Schbool, Bangalore",
       duration: "Jan 2022 - Aug 2022",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, JavaScript,HTML,CSS Algorithms, React, Redux etc.",
-        "⚡I have done  Full Stack Development.",
+        "⚡ I have studied software developer subjects like DS & Algorithms, JavaScript, HTML, CSS, React, Redux etc.",
       ],
       website_link: "https://www.masaischool.com/",
     },
