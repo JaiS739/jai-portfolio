@@ -208,13 +208,13 @@ const publicationsHeader = {
   avatar_image_path: "",
 };
 
-// Contact Page
+// About Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
+    title: "About Me",
     profile_image_path: "jai.png",
     description:
-      "I am available on social media like linkedIn. You can message me, I will reply within 24 hours.",
+      "I am a MERN full stack web developer from Khandwa MP. I like to visit new places. I am available on social media like linkedIn.",
   },
   blogSection: {
     title: "Blogs",
