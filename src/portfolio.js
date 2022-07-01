@@ -112,7 +112,7 @@ const degrees = {
       title: "Masai School",
       subtitle: "Full Stack Web Developer",
       logo_path: "logo.svg",
-      alt_name: "Masai Schbool, Banglore",
+      alt_name: "Masai Schbool, Bangalore",
       duration: "Jan 2022 - Aug 2022",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, JavaScript,HTML,CSS Algorithms, React, Redux etc.",
