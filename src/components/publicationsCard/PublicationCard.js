@@ -9,11 +9,13 @@ export default function GithubRepoCard({ repo, theme }) {
   }
 
   return (
-    <div
-      className="publication-card-div"
-      style={{ backgroundColor: theme.highlight }}
-    >
-      <Fade bottom duration={2000} distance="40px">
+    <h1>hi</h1>
+    // <div
+    //   className="publication-card-div"
+    //   style={{ backgroundColor: theme.highlight }}
+    // >
+    // {
+    /* <Fade bottom duration={2000} distance="40px">
         <div key={repo.id} onClick={() => openRepoinNewTab(repo.url)}>
           <div className="publication-name-div">
             <p className="publication-name" style={{ color: theme.text }}>
@@ -56,9 +58,10 @@ export default function GithubRepoCard({ repo, theme }) {
           <div className="repo-right-stat">
             <p>{repo.node.diskUsage} KB</p>
           </div>
-        </div> */}
-        </div>
-      </Fade>
-    </div>
+        </div> */
+    // }
+    /* </div> */
+    /* </Fade> */
+    // </div>
   );
 }

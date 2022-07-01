@@ -11,7 +11,7 @@ export default function GithubRepoCard({ repo, theme }) {
 
   return (
     <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
-      <Fade bottom duration={2000} distance="40px">
+      {/* <Fade bottom duration={2000} distance="40px">
         <div key={repo.id} onClick={() => openRepoinNewTab(repo.url)}>
           <div className="repo-name-div">
             <svg
@@ -72,8 +72,8 @@ export default function GithubRepoCard({ repo, theme }) {
             <p>{repo.node.diskUsage} KB</p>
           </div>
         </div> */}
-        </div>
-      </Fade>
+      {/* </div> */}
+      {/* // /Fade> */}
     </div>
   );
 }

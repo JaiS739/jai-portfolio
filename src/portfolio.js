@@ -125,9 +125,9 @@ const degrees = {
       subtitle: "B.E. in Mechanical Engineering",
       logo_path: "logo_new (1).png",
       alt_name: "MDITM, Indore",
-      duration: "2013 - 2018",
+      duration: "July 2013 - July 2018",
       descriptions: [
-        "⚡ I have studied basic Mechanical engineering subjects like Machine Design, Thermodynamics, Strength of Material, Internal Combustion Engines etc.",
+        "⚡ I have studied basic Mechanical engineering subjects like Machine Designing, Thermodynamics, Strength of Material, Internal Combustion Engines etc.",
       ],
       website_link: "http://www.mathuradevigroupofinstitutions.com/",
     },
@@ -193,9 +193,11 @@ const experience = {
   ],
 };
 
+let project = "";
+
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Sugar Cosmetic Clone",
   description:
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Sugar Cosmetics Clone.",
   avatar_image_path: "projects_image.svg",

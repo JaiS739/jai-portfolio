@@ -6,7 +6,11 @@ import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import { greeting, projectsHeader, publicationsHeader } from "../../portfolio.js";
+import {
+  greeting,
+  projectsHeader,
+  publicationsHeader,
+} from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import PublicationData from "../../shared/opensource/publications.json";
 import "./Projects.css";
@@ -47,13 +51,13 @@ class Projects extends Component {
         </div>
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+            // return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
         <Button
-          text={"More Projects"}
+          text={"Show Project"}
           className="project-button"
-          href={greeting.githubProfile}
+          href="https://github.com/JaiS739/Sugar-Cosmetic"
           newTab={true}
           theme={theme}
         />
@@ -83,7 +87,7 @@ class Projects extends Component {
 
         <div className="repo-cards-div-main">
           {PublicationData.data.map((repo) => {
-            return <PublicationCard repo={repo} theme={theme} />;
+            // return <PublicationCard repo={repo} theme={theme} />;
           })}
         </div>
 

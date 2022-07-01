@@ -6,7 +6,7 @@ class ProjectLanguages extends Component {
   render() {
     return (
       <div>
-        <div className="software-skills-main-div">
+        {/* <div className="software-skills-main-div">
           <ul className="dev-icons-languages">
             {this.props.logos.map((logo) => {
               return (
@@ -33,7 +33,7 @@ class ProjectLanguages extends Component {
               );
             })}
           </ul>
-        </div>
+        </div> */}
       </div>
     );
   }
