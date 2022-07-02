@@ -55,9 +55,16 @@ class Projects extends Component {
           })}
         </div>
         <Button
-          text={"Show Project"}
+          text={"Github Repo"}
           className="project-button"
           href="https://github.com/JaiS739/Sugar-Cosmetic"
+          newTab={true}
+          theme={theme}
+        />
+        <Button
+          text={"Live Link"}
+          className="project-button"
+          href="https://jais739.github.io/Sugar-Cosmetic/"
           newTab={true}
           theme={theme}
         />
