@@ -68,6 +68,13 @@ class Projects extends Component {
           newTab={true}
           theme={theme}
         />
+        <Button
+          text={"Project Blog"}
+          className="project-button"
+          href="https://medium.com/@jksingh00739/sugar-cosmetics-851b92ca0953"
+          newTab={true}
+          theme={theme}
+        />
 
         {/* Publications  */}
 
