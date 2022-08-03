@@ -75,6 +75,58 @@ class Projects extends Component {
           newTab={true}
           theme={theme}
         />
+        {/* -----------------------xxxxxxxxxxxxxxxxxx------------------ */}
+        {/* uboric.com */}
+
+        <div className="basic-projects" style={{ marginTop: "100px" }}>
+          <Fade bottom duration={2000} distance="40px">
+            <div className="projects-heading-div">
+              <div className="projects-heading-img-div">
+                {/* <img
+											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
+											alt=""
+										/> */}
+                <ProjectsImg theme={theme} />
+              </div>
+              <div className="projects-heading-text-div">
+                <h1
+                  className="projects-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  Uboric.com
+                </h1>
+                <p
+                  className="projects-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  This is my first project in which I used ReactJs and Redux for
+                  the first time.
+                </p>
+                <h1>Tech used</h1>
+                <h3>React | Redux | Chakra UI | CSS </h3>
+              </div>
+            </div>
+          </Fade>
+        </div>
+        <div className="repo-cards-div-main">
+          {ProjectsData.data.map((repo) => {
+            // return <GithubRepoCard repo={repo} theme={theme} />;
+          })}
+        </div>
+        <Button
+          text={"Github Repo"}
+          className="project-button"
+          href="https://github.com/sarikasingh30/near-steel-1499"
+          newTab={true}
+          theme={theme}
+        />
+        <Button
+          text={"Live Link"}
+          className="project-button"
+          href="https://near-steel-1499.vercel.app/"
+          newTab={true}
+          theme={theme}
+        />
 
         {/* Publications  */}
 

@@ -50,7 +50,7 @@ const skills = {
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
-      skills: ["⚡ Building responsive website front end using React-Redux"],
+      skills: ["⚡ Building responsive full stack website using MERN Stack "],
       softwareSkills: [
         {
           skillName: "HTML5",
@@ -76,24 +76,46 @@ const skills = {
           },
         },
         {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Github",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#181717",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
           },
         },
+
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
             color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
           },
         },
       ],
