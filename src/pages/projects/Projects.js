@@ -30,7 +30,12 @@ class Projects extends Component {
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <ProjectsImg theme={theme} />
+                {/* <ProjectsImg theme={theme} /> */}
+                <img
+                  width="100%"
+                  src="https://sugar-mobile-application.s3-ap-south-1.amazonaws.com/177972e0-4583-428b-b4db-da5546b71310.jpg"
+                  alt="uboric.com"
+                />
               </div>
               <div className="projects-heading-text-div">
                 <h1
@@ -49,32 +54,37 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
+        <div
+          className="repo-cards-div-main"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          {/* {ProjectsData.data.map((repo) => {
             // return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
+          })} */}
+
+          <Button
+            text={"Github Repo"}
+            className="project-button"
+            href="https://github.com/JaiS739/Sugar-Cosmetic"
+            newTab={true}
+            theme={theme}
+          />
+          <Button
+            text={"Live Link"}
+            className="project-button"
+            href="https://jais739.github.io/Sugar-Cosmetic/"
+            newTab={true}
+            theme={theme}
+          />
+          <Button
+            text={"Project Blog"}
+            className="project-button"
+            href="https://medium.com/@jksingh00739/sugar-cosmetics-851b92ca0953"
+            newTab={true}
+            theme={theme}
+          />
         </div>
-        <Button
-          text={"Github Repo"}
-          className="project-button"
-          href="https://github.com/JaiS739/Sugar-Cosmetic"
-          newTab={true}
-          theme={theme}
-        />
-        <Button
-          text={"Live Link"}
-          className="project-button"
-          href="https://jais739.github.io/Sugar-Cosmetic/"
-          newTab={true}
-          theme={theme}
-        />
-        <Button
-          text={"Project Blog"}
-          className="project-button"
-          href="https://medium.com/@jksingh00739/sugar-cosmetics-851b92ca0953"
-          newTab={true}
-          theme={theme}
-        />
+
         {/* -----------------------xxxxxxxxxxxxxxxxxx------------------ */}
         {/* uboric.com */}
 
@@ -86,7 +96,12 @@ class Projects extends Component {
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <ProjectsImg theme={theme} />
+                {/* <ProjectsImg theme={theme} /> */}
+                <img
+                  width="100%"
+                  src="https://near-steel-1499.vercel.app/static/media/pic3.e23fe22e2ee749659ca9.PNG"
+                  alt="uboric.com"
+                />
               </div>
               <div className="projects-heading-text-div">
                 <h1
@@ -108,25 +123,29 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
+        <div
+          className="repo-cards-div-main"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <Button
+            text={"Github Repo"}
+            className="project-button"
+            href="https://github.com/sarikasingh30/near-steel-1499"
+            newTab={true}
+            theme={theme}
+          />
+          <Button
+            text={"Live Link"}
+            className="project-button"
+            href="https://near-steel-1499.vercel.app/"
+            newTab={true}
+            theme={theme}
+          />
+
+          {/* {ProjectsData.data.map((repo) => {
             // return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
+          })} */}
         </div>
-        <Button
-          text={"Github Repo"}
-          className="project-button"
-          href="https://github.com/sarikasingh30/near-steel-1499"
-          newTab={true}
-          theme={theme}
-        />
-        <Button
-          text={"Live Link"}
-          className="project-button"
-          href="https://near-steel-1499.vercel.app/"
-          newTab={true}
-          theme={theme}
-        />
 
         {/* Publications  */}
 

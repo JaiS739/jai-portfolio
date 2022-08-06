@@ -220,7 +220,7 @@ let project = "";
 const projectsHeader = {
   title: "Sugar Cosmetic Clone",
   description:
-    "My project makes use of vast variety of technologies like HTML, CSS, JavaScript, Node.js. It was my best experience to create Sugar Cosmetics Clone.",
+    "My project makes use of vast variety of technologies like HTML, CSS, JavaScript, JQuery. It was my best experience to create Sugar Cosmetics Clone.",
   avatar_image_path: "projects_image.svg",
 };
 
